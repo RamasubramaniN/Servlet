@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Feedback Form</title>
+</head>
+<body>
+	<form action="FeedbackFormServlet" method="POST">
+		<table border="0" ALIGN="center" bgcolor="BLANCHEDALMOND">
+			<tr>
+				<td ALIGN="left">Your Name :</td>
+				<td ALIGN="center"><input type="text"
+					name="ComponentIdUserName"></td>
+			</tr>
+			<tr>
+				<td ALIGN="left">Password :</td>
+				<td align="center"><input type="password"
+					name="ComponentIdPassword"></td>
+			</tr>
+			<tr>
+				<td ALIGN="left">Country :</td>
+				<td align="center">&nbsp; &nbsp;<select name="ComponentIdCountry" width="40">
+						<option value="IdIndia">India</option>
+						<option value="IdAustralia">Australia</option>
+						<option value="IdNewzealand">Newzealand</option>
+						<option value="IdUAE">United Arab Emirates</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td ALIGN="left">Rate This Site :</td>
+				<td align="center">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<input type="radio" name="ComponentIdRating"
+					value="Worst"> Worst </input> <input type="radio"
+					name="ComponentIdRate" value="Average" CHECKED> Average </input> <input
+					type="radio" name="ComponentIdRate" value="Best"> Best </input></td>
+			</tr>
+			<tr>
+				<td ALIGN="left">Your Comments :</td>
+				<td>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+				<TEXTAREA ROWS="6" COLS="40" WRAP="PHYSICAL" Name="ComponentIdComments">Enter any comments or suggestions you have here.</TEXTAREA>
+			 </td>
+			 <tr>
+				<td align="right"><input type="submit" value="Submit">
+				</td>
+				<td align="left">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<input type="reset" value="Reset"></td>
+			</tr>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

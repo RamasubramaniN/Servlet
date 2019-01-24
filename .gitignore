@@ -1,0 +1,10 @@
+target/
+*DS_Store
+.project
+.settings
+*swp
+.classpath
+.settings/
+/.settings
+build/
+Servers/
